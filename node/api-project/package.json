@@ -1,15 +1,23 @@
 {
   "name": "api-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create an API with CRUD operations for products",
   "main": "src/server.js",
   "scripts": {
     "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axell-brendow/curso-web-js-leo-moura.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axell-brendow/curso-web-js-leo-moura/issues"
+  },
+  "homepage": "https://github.com/axell-brendow/curso-web-js-leo-moura#readme",
   "dependencies": {
     "body-parser": "1.18.2",
     "express": "4.16.2"

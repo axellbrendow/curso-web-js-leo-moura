@@ -1,0 +1,20 @@
+{
+  "name": "curso-web-js-leo-moura",
+  "version": "1.0.0",
+  "description": "Repository with codes of some classes from [Curso Web Moderno com JavaScript 2020 COMPLETO + Projetos](https://www.udemy.com/course/curso-web/), Master Web - 13 Courses - Javascript React Vue JS Node HTML CSS jQuery Bootstrap Webpack Gulp Database and many more",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axell-brendow/curso-web-js-leo-moura.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axell-brendow/curso-web-js-leo-moura/issues"
+  },
+  "homepage": "https://github.com/axell-brendow/curso-web-js-leo-moura#readme"
+}
