@@ -10,12 +10,13 @@ module.exports = app => {
     {
         try {
             existsOrError(value, msg);
-            throw msg;
         }
         
         catch (msg) {
-            return
+            return;
         }
+
+        throw msg;
     }
 
     function equalsOrError(valueA, valueB, msg)
