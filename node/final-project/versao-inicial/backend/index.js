@@ -5,6 +5,7 @@ const db = require('./config/db');
 app.db = db;
 
 consign()
+    .include('./config/passport.js')
     // As middlewares.js exports a function, consign passes the app object to it
     .then('./config/middlewares.js')
     .then('./api/validation.js')
